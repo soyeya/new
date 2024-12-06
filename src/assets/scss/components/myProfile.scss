@@ -1,0 +1,170 @@
+.myProfileWrappers{
+
+    padding:100px 150px;
+    width: calc(100% - 300px);
+    height: calc(100% - 200px);
+    margin:0 auto;
+
+    .myProfileWrap{
+ 
+        padding:20px 30px;
+        width: calc(100% - 60px);
+        height:calc(400px - 40px);
+        margin:0 auto;
+        border-radius: 20px;
+        border:1px solid #aaa;
+
+        ul{
+
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding:0px 0px 10px;
+
+            li{
+                display: flex;
+                align-items: center;
+
+                h5{ color:#f1f1f1; font-size: 1.5rem; font-weight: 300;}
+
+                .profileBoxs{
+
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #333;
+                    border-radius: 50%;
+                    margin-right:30px;
+
+                    img{ height:50px; }
+
+                }
+            }
+
+            &.states{
+
+                justify-content: space-between;
+
+                li{
+
+                  p{ color:#aaa; font-size: 1.2rem;
+                     span{ padding-left:10px; }
+                  }
+                }
+            }
+
+            &.textArea{
+
+                padding:20px 0px 70px;
+                
+                p{ 
+                    color:#aaa; 
+                    font-size: 1.5vw;
+                    line-height: 1.5;
+                    font-weight: 300;
+                    
+                }
+            }
+
+            &.myInfo{
+
+                gap:10px;
+                flex-direction: column;
+                justify-content: flex-start;
+
+                li{ width: 100%;
+                   
+                    p{ color:#fff;; font-size: 1.2vw; letter-spacing: 1px;
+                    
+                         strong{ padding-right:10px; letter-spacing: 1.5px; color: #f1f1f1;}
+                     }
+                }
+            }
+        }
+
+        @media all and (max-width:1600px){
+            ul{
+                &.textArea{
+                    
+                    p{ 
+
+                        font-size: 1.7vw;
+
+                        
+                    }
+                }
+                &.myInfo{
+
+                    li{ 
+                        p{ color:#f1f1f1; font-size: 1.5vw;}
+                    }
+                }
+         
+            }
+        }
+
+    }
+
+    .contactWrap{
+
+        width: 100%;
+        padding:30px 0px;
+        margin:0 auto;
+
+        .contactBoxs{
+
+            width: 100%;
+            
+            ul{
+                padding:30px 0px; 
+                display: flex;
+
+                p{ 
+                    font-size: 1.1rem; 
+                    color:#f1f1f1; 
+                    font-weight: 300; 
+                    padding:0px 20px 0px 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img{ height:20px; margin-right:10px;}
+                }
+
+                .link{ 
+                    font-size: 1.1rem; 
+                    color:#f1f1f1; 
+                    font-weight: 300; 
+                    padding:0px 10px 0px 0px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{ height:20px; margin-right:10px;}
+                 }
+
+                &.contactTitle{
+
+                    position: relative;
+                    padding:20px 0px;
+                    border-bottom:1px solid #aaa;
+
+                    em{
+
+                        position: absolute;
+                        left:0;
+                        bottom:0;
+                        width: 80px;
+                        height: 3px;
+                        background-color: #fff;
+                        border-radius: 20px;
+                    }
+   
+                    p{ padding:0px; text-transform: uppercase;}
+                }
+            }
+        }
+    }
+
+}

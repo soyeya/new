@@ -1,0 +1,22 @@
+{
+   
+  "workList" : [
+    {"title" : "대한송유관공사" , "href" : "" , "img" : "work01.png"},
+    {"title" : "LG CNS" , "href" : "", "img" : "work02.png"},
+    {"title" : "ICUBE" , "href" : "", "img" : "work03.png"},
+    {"title" : "비엠텍" , "href" : "", "img" : "work04.png"},
+    {"title" : "오왈라" , "href" : "", "img" : "work05.png"},
+    {"title" : "옵티머스솔루션스" , "href" : "", "img" : "work06.png"},
+    {"title" : "블랜더보틀" , "href" : "", "img" : "work07.png"}
+   ],
+
+  "projectList" : [
+    {"title" : "Lush" , "href" : "https://soyeya.github.io/React_lush_/", "img" : "work08.png"},
+    {"title" : "Tada" , "href" : "https://soyeya.github.io/React_tada/", "img" : "work09.png"},
+    {"title" : "BIFF" , "href" : "https://soyeya.github.io/vueBiffsite/", "img" : "work10.png"},
+    {"title" : "SchoolFood" ,"href" : "https://soyeya.github.io/vueSchoolfood/", "img" : "work11.png"},
+    {"title" : "Banapresso" ,"href" : "https://soyeya.github.io/banapresso/", "img" : "work12.png"},
+    {"title" : "Ezpz" , "href" : "https://soyeya.github.io/ezpz_app/", "img" : "work13.png"},
+    {"title" : "유스에게(ToYouth)", "href" : "https://soyeya.github.io/youth_react/", "img" : "work14.png"}
+  ]
+}

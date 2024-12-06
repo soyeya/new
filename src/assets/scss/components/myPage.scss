@@ -1,0 +1,241 @@
+.myPageWrappers{
+
+    width: 100%;
+    height: 100vh;
+    margin:0 auto;
+
+    .myPageWrap{
+
+        padding-left:100px;
+        padding-top: 100px;
+        width: calc(100% - 100px);
+        height: calc(100% - 100px);
+
+        .mypageCont{
+            
+            padding: 50px 100px;
+            width: calc(100% - 200px);
+            height: calc(400px - 100px);
+            margin:0 auto;
+            display: flex;
+            align-items: center;
+
+        .spaceWrap{
+
+            width: 80%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            padding-bottom:30px;
+            border-bottom: 1px solid #aaa;
+   
+            &:nth-child(1){ width: 20%; padding-right:30px;}
+   
+           .profileBoxs{
+   
+               min-width:200px;
+               min-height:200px;
+               max-width:250px;
+               max-height:250px;
+               border-radius: 50%;
+               background-color: transparent;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+   
+               img{
+                   width:100%;
+               }
+   
+              
+           }
+   
+           ul{
+               display: flex;
+               flex-direction: column;
+               align-items: flex-start;
+               justify-content: flex-start;
+               gap:10px 0px;
+   
+               li{ 
+                  h3{ 
+                   font-size:3vw;
+                   color:#f1f1f1;
+                   font-family: "Do Hyeon", sans-serif;
+                   font-weight: 400;
+                   font-style:italic;
+                 
+               }
+               p{ 
+                   font-size: 3vw;
+                   color:#f1f1f1;
+                   font-family: "Do Hyeon", sans-serif;
+                   font-weight: 300;
+                   font-style: normal;
+               }
+   
+           &.tag{
+               a{ 
+               color:#aaa;
+               font-size: 1.2vw;
+               letter-spacing: -0.2px;
+           }
+           }
+          }
+                  
+           }
+       } 
+    }
+    .mypageInfo{
+        padding: 0px 100px;
+        width: calc(100% - 200px);
+        height: calc(100% - 400px);
+        margin:0 auto;
+
+        article{
+            width: 100%;
+            padding:0px;
+            margin:0 auto;
+
+            ul{
+
+                width: 100%;
+                display: flex;
+                align-items: center;
+
+
+                li{
+                    flex:1;
+                    display: flex;
+                    align-items: center;
+                    padding:0px 0px 30px;
+                    gap:0px 30px;
+         
+
+                    &.twos{ align-items: flex-start;}
+
+                    h5{
+
+                        color:#f1f1f1;
+                        font-weight: 600;
+                        font-size: 1.5vw;
+                        text-transform: uppercase;
+                        width:150px;
+                        letter-spacing: 0.2px;
+
+
+                    }
+
+                    p{
+                        color:#f1f1f1;
+                        font-weight: 300;
+                        font-size: 1.2vw;
+                        line-height: 1.5;
+                        span{ display: block; padding:10px 0px 0px;}
+                    }
+                }
+            }
+            &.swiperCont{
+
+                padding-top:50px;
+
+                h3{ 
+                    font-size: 1.5vw; 
+                    color:#f1f1f1; 
+                    font-weight: 600; 
+                    text-transform: uppercase;
+                    letter-spacing: 0.2px;
+                }
+
+                .work-swiperWrappers{
+
+                    width: 100%;
+                    height: 300px;
+                    display: flex;
+                    align-items: center;
+
+                    .swiper-slide{ 
+                        height:230px!important;
+                        border-radius: 20px; 
+                        overflow: hidden;
+
+                        a{
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        img{ height:170px; display: block; object-fit: cover; border-radius: 20px; margin-bottom:10px;}
+                    
+                        span{ color:#f1f1f1; font-size: 1vw;}
+                        }
+                    
+                    }
+                    .swiper-button-prev, .swiper-button-next{
+
+                        width: 80px!important;
+                        height:80px!important;
+                        background-color: #333!important;
+                        border-radius: 50%!important;
+                        color:#f1f1f1!important;
+                        top:35%!important;
+
+                       
+                    }
+
+                    .swiper-button-prev{
+                        &::after{ font-size: 1.2vw!important;}
+                    }
+                    .swiper-button-next{
+                        &::after{ font-size: 1.2vw!important;}
+                    }
+                }
+           }
+        }
+      
+    }
+
+    @media all and (max-width:1600px){
+
+        .mypageInfo{
+            article{
+
+                &.swiperCont{
+    
+                    h3{  }
+    
+                    .work-swiperWrappers{
+    
+                        height: 260px;
+
+                        .swiper-slide{ 
+
+                            a{
+
+                            img{ height:150px;}
+                        
+                            span{ color:#f1f1f1; font-size: 1vw;}
+                            }
+                        
+                        }
+                        .swiper-button-prev, .swiper-button-next{
+    
+                            width: 50px!important;
+                            height:50px!important;
+                            top:35%!important;
+    
+                        }
+    
+                        .swiper-button-prev{
+                            &::after{ font-size: 1.5vw!important;}
+                        }
+                        .swiper-button-next{
+                            &::after{ font-size: 1.5vw!important;}
+                        }
+                    }
+               }
+
+            }
+        }
+    }
+    
+    }
+}

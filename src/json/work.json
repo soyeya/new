@@ -1,0 +1,18 @@
+[
+
+   { "project" : "프로젝트명", "title" : "대한송유관공사" , "period" : "2024년 05월 ~ 08월", "person" : "2명" , "contribution" : "전체 퍼블리싱", "skills" : "HTML5, CSS3, Javascript / ES6 모듈화" , "href" : "" , "img" : "work01.png"},
+   { "project" : "프로젝트명", "title" : "LG CNS" , "period" : "2024년 08월 ~ 10월", "person" : "2명" , "contribution" : "전체 퍼블리싱", "skills" : "React.js , Webpack, Babel, GSAP", "href" : "", "img" : "work02.png"},
+   { "project" : "프로젝트명", "title" : "ICUBE" , "period" : "2024년 10월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "HTML5, CSS3, Javascript / ES6 모듈화" , "href" : "", "img" : "work03.png"},
+   { "project" : "프로젝트명", "title" : "비엠텍" , "period" : "2024년 11월",  "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "HTML5, SCSS, Javascript / ES6 모듈화" , "href" : "", "img" : "work04.png"},
+   { "project" : "프로젝트명", "title" : "오왈라" , "period" : "2023년 01월 ~ 03월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "HTML5, CSS3, Javascript" , "href" : "", "img" : "work05.png"},
+   { "project" : "프로젝트명", "title" : "옵티머스솔루션스" , "period" : "2022년 09월 ~ 12월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "HTML5, CSS3, Javascript" , "href" : "", "img" : "work06.png"},
+   { "project" : "프로젝트명", "title" : "블랜더보틀" , "period" : "2022년 07월 ~ 08월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "HTML5, CSS3, Javascript" , "href" : "", "img" : "work07.png"},
+   { "project" : "개인프로젝트", "title" : "Lush" , "period" : "2023년 10월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "React.js" , "href" : "https://soyeya.github.io/React_lush_/", "img" : "work08.png"},
+   { "project" : "개인프로젝트", "title" : "Tada" , "period" : "2023년 10월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "React.js" , "href" : "https://soyeya.github.io/React_tada/", "img" : "work09.png"},
+   { "project" : "개인프로젝트", "title" : "BIFF" , "period" : "2023년 11월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "Vue.js" , "href" : "https://soyeya.github.io/vueBiffsite/", "img" : "work10.png"},
+   { "project" : "개인프로젝트", "title" : "SchoolFood" , "period" : "2023년 11월", "person" : "1명" , "contribution" : "전체 퍼블리싱", "skills" : "Vue.js" , "href" : "https://soyeya.github.io/vueSchoolfood/", "img" : "work11.png"},
+   { "project" : "개인프로젝트", "title" : "Banapresso" , "period" : "2024년 01월", "person" : "1명" , "contribution" : "프론트엔드", "skills" : "React.js , Webpack , Babel" , "href" : "https://soyeya.github.io/banapresso/", "img" : "work12.png"},
+   { "project" : "개인프로젝트", "title" : "Ezpz" , "period" : "2024년 2월", "person" : "1명" , "contribution" : "프론트엔드", "skills" : "React, Webpack, Babel, Node.js" , "href" : "https://soyeya.github.io/ezpz_app/", "img" : "work13.png"},
+   { "project" : "개인프로젝트", "title" : "유스에게(ToYouth)" , "period" : "2024년 3월", "person" : "1명" , "contribution" : "프론트엔드", "skills" : "React, Webpack, Babel, Node.js, Mysql" , "href" : "https://soyeya.github.io/youth_react/", "img" : "work14.png"}
+   
+]

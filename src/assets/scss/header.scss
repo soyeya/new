@@ -1,0 +1,105 @@
+
+header{ 
+    
+    position: fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100px;
+    background-color: #0f0f0f; 
+    overflow: hidden;
+    z-index:999999;
+
+    ul{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+       li{
+
+         width:calc(100% / 3);
+         height:100%;
+         display: flex;
+         align-items: center;
+
+         div{ width:100%;
+              height: 100%;
+              display: flex;
+              align-items: center;
+
+              &.iconBoxs{
+                padding-left:100px;
+                width: calc(100% - 100px);
+
+                img{ width: 7vw;  min-width:130px;}
+              }
+              &.searchBoxs{
+
+                 border:1px solid rgb(48, 48, 48);
+                 border-radius: 40px;
+                 height:50px;
+                 background-color: #121212;
+              }
+
+              input[type="search"]{
+                height:100%;
+                padding:0px 20px;
+                width:100%;
+                border-radius: 40px 0px 0px 40px;
+                background-color: transparent;
+                font-size: 1rem;
+                font-weight: 400;
+                &:focus{ outline: 2px solid #065fd4;}
+                color:#f1f1f1;
+              }
+              .searchBtn{
+                height: 100%;
+                width:70px;
+                cursor: pointer;
+                background-color: rgba(255, 255, 255, 0.078);
+                border-radius: 0 40px 40px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img{ height:20px; 
+                    filter: contrast(0);
+                    -webkit-filter: contrast(0);
+                }
+              }
+
+              &.profileBoxs{ 
+                justify-content: flex-end;
+                padding:0px 10px;
+                width:calc(100% - 20px);
+                gap:20px;
+
+                  button{ 
+                    width:50px; 
+                    height:50px;
+
+                    img{ height:30px; }
+                }
+                 .toMyPage{
+
+                     background-color: #333333;
+                     border-radius: 50%;
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     width: 65px;
+                     height: calc(100% / 1.5);
+                     margin-right:100px;
+
+                     img{ height:50px;}
+                 }
+            }
+           
+         }
+       }
+
+    }
+
+}

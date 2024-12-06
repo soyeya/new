@@ -1,0 +1,23 @@
+html, body{ 
+
+    font-family: Pretendard;
+    margin:0; padding:0; background-color: #0f0f0f; font-size: 16px;
+}
+div,p,h1,h2,h3,h4,h5,ul{ margin:0; padding:0;}
+ul li{list-style: none;}
+a{ text-decoration: none;}
+a:visited { color:#f1f1f1; }
+input[type="text"],input[type="search"]{ background: none; border:none;}
+button{background: none; border: none}
+
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url(./assets/scss/abstract/variable.scss);
+@import url(./assets/scss/header.scss);
+@import url(./assets/scss/nav.scss);
+@import url(./assets/scss/components/main.scss);
+@import url(./assets/scss/intro.scss);
+@import url(./assets/scss/components/work.scss);
+@import url(./assets/scss/components/myProfile.scss);
+@import url(./assets/scss/components/myPage.scss);
+@import url(./assets/scss/components/myProject.scss);
+
